@@ -1,0 +1,31 @@
+name: SaaS Factory Founder Brief
+
+on:
+  schedule:
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  founder-brief:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate founder brief
+        run: node saas-factory/scripts/generate-founder-brief.js
+
+      - name: Commit generated brief
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Update SaaS Factory founder brief'
+          file_pattern: 'saas-factory/DAILY_FOUNDER_BRIEF.md saas-factory/briefs/*.md'
