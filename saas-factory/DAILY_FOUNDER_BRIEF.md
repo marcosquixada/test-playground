@@ -1,0 +1,35 @@
+# Daily Founder Brief — 2026-04-25
+
+## Produto
+
+ReportForge AI — SaaS para contabilidades premium gerarem relatórios gerenciais a partir de planilhas e exports financeiros.
+
+## Progresso de validação
+
+- Prospects preenchidos: 0/30
+- Prospects contatados: 0
+- Respostas recebidas: 0
+- Conversas marcadas: 0
+- Candidatos a piloto: 0
+
+## Status do funil
+
+- new: 30
+
+## Top prospects por fit
+
+- Ainda não há prospects preenchidos.
+
+## Próximas ações registradas
+
+- Preencher os primeiros prospects e definir próximas ações.
+
+## Decisões necessárias do founder
+
+1. Existem prospects suficientes para iniciar abordagem hoje?
+2. Manter nicho em contabilidades premium ou estreitar para BPO financeiro/contabilidade consultiva?
+3. Quando houver 5 conversas, decidir se avança para landing page publicada.
+
+## Recomendação automática
+
+Priorizar preenchimento de pelo menos 10 prospects antes de construir qualquer MVP técnico.
