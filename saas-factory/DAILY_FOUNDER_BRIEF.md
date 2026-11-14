@@ -1,4 +1,4 @@
-# Daily Founder Brief — 2026-11-13
+# Daily Founder Brief — 2026-11-14
 
 ## Produto
 
